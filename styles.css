@@ -1,0 +1,8 @@
+body{
+	padding: 10px 30px;
+}
+.welcomeMessage{
+	color: white;
+	padding: 30px 10px;
+	background-color: gray;
+}
