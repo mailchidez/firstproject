@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>table</title>
+	<link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
+</head>
+<body>
+     <!-- creating a table  -->
+ 	<table>
+ 		<caption>Name list</caption>
+		<tr>
+			<th> first name</th>
+			<th> last name</th>
+			<th> Gender </th>
+ 		</tr>
+ 		<tr>
+			<td> Chikwendu</td>
+			<td> Chidera</td>
+			<td> male</td>
+ 		</tr>
+		<tr>
+			<td> masterc </td>
+			<td> elmony</td>
+			<td> male</td>
+ 		</tr>
+	</table>
+
+
+    <form action="contactform.php" method="post">
+    	   <input type="text" name="email" placeholder="Enter your email address">
+    	   <input type="text" name="change name from default" value="name">
+    Male:  <input type="radio" name="Gender" value="male">
+    Female:<input type="radio" name="Gender" value="female">
+    Others:<input type="radio" name="Gender" value="others" checked="">
+           <input type="password" name="password" placeholder="password">
+           <input type="submit" name="submit">
+           <textarea name="message" placeholder="write a message"></textarea>
+    </form>
+
+
+
+
+
+</body>
+</html>
